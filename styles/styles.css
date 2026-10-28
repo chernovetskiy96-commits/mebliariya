@@ -1,0 +1,74 @@
+/* .raleway-<uniquifier> {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+} 
+ .ibm-plex-sans-<uniquifier> {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    color: #080C09;
+}
+
+img {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+}
+
+/* region header */
+
+.page-header {
+
+}
+
+.main-logo {
+   
+}
+
+.main-logo-link {
+
+}
+
+.main-logo-img {
+    display: inline-block;
+    stroke: #080C09;
+    fill: #080C09;
+}
+
+
+/* endregion header */
