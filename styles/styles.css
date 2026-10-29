@@ -105,6 +105,7 @@ ul {
 .main-btn {
     margin-left: 32px;
     cursor: pointer;
+    transition: background-color 250ms ease;
 }
 
 .main-btn:hover,
@@ -157,6 +158,7 @@ main {
     height: 46px;
     margin-top: 32px;
     cursor: pointer;
+    transition: background-color 250ms ease;
 }
 
 .hero-btn:hover,
@@ -165,3 +167,141 @@ main {
 }
 
 /* #endregion hero */
+
+
+/* #region our products */
+
+.our-products-section {
+    width: 1312px;
+    max-width: 1318px;
+    height: 1362px;
+    margin: 0 auto;
+    padding: 80px 4px 0;
+}
+
+.our-products {
+
+}
+
+.our-products-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: #080C09;
+    margin-bottom: 16px;
+}
+
+.our-products-content {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #080C09;
+    margin-bottom: 40px;
+}
+
+.our-products-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.our-products-item {
+    position: relative;
+    width: 166px;
+    height: 122px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: outline 250ms ease, background-color 250ms ease;
+    
+}
+
+.our-products-item:active,
+.our-products-item:focus-within {
+    outline: 8px solid #800f13;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.our-products-link {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.our-products-link-content {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+   padding: 6px;
+}
+
+.our-products-all {
+    background-image: url(/img/our-products-img/our-product.png);
+}
+
+.our-products-soft {
+    background-image: url(/img/our-products-img/soft-furniturs.png);
+}
+
+.our-products-wardrobe {
+    background-image: url(/img/our-products-img/wardrop.png);
+}
+
+.our-products-bed {
+    background-image: url(/img/our-products-img/bed.png);
+}
+
+.our-products-table {
+    background-image: url(/img/our-products-img/diner-table.png);
+}
+
+.our-products-chairs {
+    background-image: url(/img/our-products-img/chairs.png);
+}
+
+.our-products-kitchen {
+    background-image: url(/img/our-products-img/kitchen.png);
+}
+
+.our-products-kids {
+    background-image: url(/img/our-products-img/childrens.png);
+}
+
+.our-products-office {
+    background-image: url(/img/our-products-img/office.png);
+}
+
+.our-products-hallway {
+    background-image: url(/img/our-products-img/mirror.png);
+}
+
+.our-products-bethroom {
+    background-image: url(/img/our-products-img/bathroom.png);
+}
+
+.our-products-garden {
+    background-image: url(/img/our-products-img/outdoor.png);
+}
+
+.our-products-decor {
+    background-image: url(/img/our-products-img/decor.png);
+}
+
+
+
+/* endregion our products */
