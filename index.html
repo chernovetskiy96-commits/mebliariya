@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="node_modules/css-star-rating/css/star-rating.css">
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
@@ -407,40 +408,161 @@
 
     <!-- #region reviews-->
 
-    <section class="reviews">
-      <h2>Відгуки клієнтів</h2>
-      <p>Дізнайтеся, що кажуть наші задоволені клієнти про нашу меблі.</p>
-      <div>
-        <ul>
-          <li>
-            <p>*****</p>
-            <p>
+    <section class="reviews-section">
+      <h2 class="reviews-title">Відгуки клієнтів</h2>
+      <p class="reviews-content">Дізнайтеся, що кажуть наші задоволені клієнти про нашу меблі.</p>
+        <ul class="reviews-list">
+          <li class="reviews-item">
+            <div class="rating large star-icon direction-ltr value-4 half color-default label-top">
+   <div class="label-value"></div>
+    <div class="star-container">
+        <div class="star">
+            <i class="star-empty"></i>
+            <i class="star-half"></i>
+            <i class="star-filled"></i>
+        </div>
+        <div class="star">
+            <i class="star-empty"></i>
+            <i class="star-half"></i>
+            <i class="star-filled"></i>
+        </div>
+        <div class="star">
+            <i class="star-empty"></i>
+            <i class="star-half"></i>
+            <i class="star-filled"></i>
+        </div>
+        <div class="star">
+            <i class="star-empty"></i>
+            <i class="star-half"></i>
+            <i class="star-filled"></i>
+        </div>
+        <div class="star">
+            <i class="star-empty"></i>
+            <i class="star-half"></i>
+            <i class="star-filled"></i>
+        </div>
+    </div>
+</div>
+            <p class="reviews-answer">
               “Дуже задоволена покупкою! Диван не тільки стильний, а й
               неймовірно зручний. Доставка була швидкою, все без жодної
               подряпини.”
             </p>
-            <p>Олена Коваль</p>
+            <p class="reviews-name">Олена Коваль</p>
           </li>
-          <li>
-            <p>*****</p>
-            <p>
+          <li class="reviews-item">
+            <div class="rating large star-icon direction-ltr value-3 half color-default label-top">
+   <div class="label-value"></div>
+    <div class="star-container">
+        <div class="star">
+            <i class="star-empty"></i>
+            <i class="star-half"></i>
+            <i class="star-filled"></i>
+        </div>
+        <div class="star">
+            <i class="star-empty"></i>
+            <i class="star-half"></i>
+            <i class="star-filled"></i>
+        </div>
+        <div class="star">
+            <i class="star-empty"></i>
+            <i class="star-half"></i>
+            <i class="star-filled"></i>
+        </div>
+        <div class="star">
+            <i class="star-empty"></i>
+            <i class="star-half"></i>
+            <i class="star-filled"></i>
+        </div>
+        <div class="star">
+            <i class="star-empty"></i>
+            <i class="star-half"></i>
+            <i class="star-filled"></i>
+        </div>
+    </div>
+</div>
+            <p class="reviews-answer">
               “Замовляв шафу й ліжко — все приїхало раніше терміну. Якість
               перевершила очікування, збирання зайняло мінімум часу.”
             </p>
-            <p>Андрій Шевченко</p>
+            <p class="reviews-name">Андрій Шевченко</p>
           </li>
-          <li>
-            <p>*****</p>
-            <p>
+          <li class="reviews-item">
+            <div class="rating large star-icon direction-ltr value-5 color-default label-top">
+   <div class="label-value"></div>
+    <div class="star-container">
+        <div class="star">
+            <i class="star-empty"></i>
+            <i class="star-half"></i>
+            <i class="star-filled"></i>
+        </div>
+        <div class="star">
+            <i class="star-empty"></i>
+            <i class="star-half"></i>
+            <i class="star-filled"></i>
+        </div>
+        <div class="star">
+            <i class="star-empty"></i>
+            <i class="star-half"></i>
+            <i class="star-filled"></i>
+        </div>
+        <div class="star">
+            <i class="star-empty"></i>
+            <i class="star-half"></i>
+            <i class="star-filled"></i>
+        </div>
+        <div class="star">
+            <i class="star-empty"></i>
+            <i class="star-half"></i>
+            <i class="star-filled"></i>
+        </div>
+    </div>
+</div>
+            <p class="reviews-answer">
               “Нарешті знайшли меблі, які ідеально вписались у наш інтер’єр.
               Сайт зручний, підтримка завжди на зв’язку.”
             </p>
-            <p>Іванна Петренко</p>
+            <p class="reviews-name">Іванна Петренко</p>
           </li>
-          <button type="button">></button>
-          <button type="button"><</button>
         </ul>
-      </div>
+
+        <div class="reviews-container-btn">
+          <button class="reviews-btn" type="button">
+            <svg width="14" height="14">
+              <use href="./img/sprite.svg#icon-left"></use>
+            </svg>
+          </button>
+          <button class="reviews-btn" type="button">
+            <svg width="14" height="14">
+              <use href="./img/sprite.svg#icon-right">
+              </use>
+            </svg></button>
+        </div>
+        <div class="reviews-pagination">
+          <button class="reviews-dot active"
+          type="button"
+          aria-label="Перейти до слайду 1"></button>
+
+         <button class="reviews-dot"
+          type="button"
+          aria-label="Перейти до слайду 2"></button>
+
+          <button class="reviews-dot"
+          type="button"
+          aria-label="Перейти до слайду 3"></button>
+
+          <button class="reviews-dot"
+          type="button"
+          aria-label="Перейти до слайду 4"></button>
+
+          <button class="reviews-dot"
+          type="button"
+          aria-label="Перейти до слайду 5"></button>
+
+          <button class="reviews-dot"
+          type="button"
+          aria-label="Перейти до слайду 6"></button>
+        </div>
     </section>
 
     <!-- #endregion reviews -->
