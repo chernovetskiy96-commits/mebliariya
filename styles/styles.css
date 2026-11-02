@@ -550,31 +550,6 @@ main {
     margin-right: 0;
 }
 
-.reviews-item .rating.star-icon .star-container .star {
-    width: 18px;
-}
-
-.reviews-item .rating.star-icon .star i {
-    display: flex;
-    font-size: 15px;
-    line-height: 15px;
-    font-style: normal;
-    
-}
-
-.reviews-item .rating.star-icon .star i.star-empty::before {
-    content: "☆";
-    stroke: #080C09;
-
-}
-
-.reviews-item .rating.star-icon .star i.star-half::before,
-.reviews-item .rating.star-icon .star i.star-filled::before {
-    content: "★";
-    color: #080C09;
-    stroke: #080C09;
-}
-
 /* #endregion review ratings */
 
 
