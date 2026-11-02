@@ -109,7 +109,7 @@ ul {
 /* #region hero */
 
 main {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(./img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(/img/hero.jpg);
     width: 100%;
     height: 508px;
     background-size: cover;
@@ -238,55 +238,55 @@ main {
 }
 
 .our-products-all {
-    background-image: url(./img/our-products-img/our-product.png);
+    background-image: url(/img/our-products-img/our-product.png);
 }
 
 .our-products-soft {
-    background-image: url(./img/our-products-img/soft-furniturs.png);
+    background-image: url(/img/our-products-img/soft-furniturs.png);
 }
 
 .our-products-wardrobe {
-    background-image: url(./img/our-products-img/wardrop.png);
+    background-image: url(/img/our-products-img/wardrop.png);
 }
 
 .our-products-bed {
-    background-image: url(./img/our-products-img/bed.png);
+    background-image: url(/img/our-products-img/bed.png);
 }
 
 .our-products-table {
-    background-image: url(./img/our-products-img/diner-table.png);
+    background-image: url(/img/our-products-img/diner-table.png);
 }
 
 .our-products-chairs {
-    background-image: url(./img/our-products-img/chairs.png);
+    background-image: url(/img/our-products-img/chairs.png);
 }
 
 .our-products-kitchen {
-    background-image: url(./img/our-products-img/kitchen.png);
+    background-image: url(/img/our-products-img/kitchen.png);
 }
 
 .our-products-kids {
-    background-image: url(./img/our-products-img/childrens.png);
+    background-image: url(/img/our-products-img/childrens.png);
 }
 
 .our-products-office {
-    background-image: url(./img/our-products-img/office.png);
+    background-image: url(/img/our-products-img/office.png);
 }
 
 .our-products-hallway {
-    background-image: url(./img/our-products-img/mirror.png);
+    background-image: url(/img/our-products-img/mirror.png);
 }
 
 .our-products-bethroom {
-    background-image: url(./img/our-products-img/bathroom.png);
+    background-image: url(/img/our-products-img/bathroom.png);
 }
 
 .our-products-garden {
-    background-image: url(./img/our-products-img/outdoor.png);
+    background-image: url(/img/our-products-img/outdoor.png);
 }
 
 .our-products-decor {
-    background-image: url(./img/our-products-img/decor.png);
+    background-image: url(/img/our-products-img/decor.png);
 }
 
 /* #endregion our products */
@@ -570,7 +570,7 @@ min-height: 637px;
 }
 
 .reviews-content {
-    padding: 24px 0 133px;
+    padding: 24px 0 80px;
 }
 
 .reviews-list {
@@ -586,6 +586,12 @@ min-height: 637px;
     flex-direction: column;
     justify-content: space-between;
 }
+
+.reviews-stars {
+    display: flex;
+    column-gap: 4px;
+}
+
 
 .reviews-answer {
     font-weight: 500;
@@ -658,3 +664,81 @@ min-height: 637px;
 
 
 /* #endregion reviews */
+
+
+/* region footer */
+
+footer {
+    width: 100vw;
+    min-height: 97px;
+    background-color: #6B0609;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer-container {
+    padding: 25px 64px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: calc((100% - 240px) / 3); */
+}
+
+
+.footer-logo{
+    fill: #fff;
+    cursor: pointer;
+}
+
+.footer-content {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.footer-nav {
+ display: flex;
+ 
+}
+
+.footer-nav-list {
+    display: flex;
+    align-items: center;
+   column-gap: 32px;
+    
+}
+
+.footer-nav-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #ffffff;
+    /* width: calc((100% - 96px) / 4); */
+}
+
+.footer-socials {
+   padding-left: 80px;
+}
+
+.footer-socials-list {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.footer-socials-item {
+
+}
+
+.footer-socials-link {
+    cursor: pointer;
+}
+
+.footer-socials-icon {
+ fill: #ffffff;
+}
+
+/* #rendregion footer */

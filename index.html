@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mebliariya</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -11,13 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="node_modules/css-star-rating/css/star-rating.css">
+    <link rel="icon" type="image/svg+xml" href="/img/favicon.svg" />
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
@@ -413,6 +414,23 @@
       <p class="reviews-content">Дізнайтеся, що кажуть наші задоволені клієнти про нашу меблі.</p>
         <ul class="reviews-list">
           <li class="reviews-item">
+            <div class="reviews-stars">
+              <svg class="reviews-star-img" width="20" height="20">
+                <use href="./img/sprite.svg#all-star"></use>
+              </svg>
+              <svg class="reviews-star-img" width="20" height="20">
+                <use href="./img/sprite.svg#all-star"></use>
+              </svg>
+              <svg class="reviews-star-img" width="20" height="20">
+                <use href="./img/sprite.svg#all-star"></use>
+              </svg>
+              <svg class="reviews-star-img" width="20" height="20">
+                <use href="./img/sprite.svg#all-star"></use>
+              </svg>
+              <svg class="reviews-star-img" width="20" height="20">
+                <use href="./img/sprite.svg#pass-star"></use>
+              </svg>
+            </div>
             <p class="reviews-answer">
               “Дуже задоволена покупкою! Диван не тільки стильний, а й
               неймовірно зручний. Доставка була швидкою, все без жодної
@@ -421,6 +439,23 @@
             <p class="reviews-name">Олена Коваль</p>
           </li>
           <li class="reviews-item">
+            <div class="reviews-stars">
+              <svg class="reviews-star-img" width="20" height="20">
+                <use href="./img/sprite.svg#all-star"></use>
+              </svg>
+              <svg class="reviews-star-img" width="20" height="20">
+                <use href="./img/sprite.svg#all-star"></use>
+              </svg>
+              <svg class="reviews-star-img" width="20" height="20">
+                <use href="./img/sprite.svg#all-star"></use>
+              </svg>
+              <svg class="reviews-star-img" width="20" height="20">
+                <use href="./img/sprite.svg#all-star"></use>
+              </svg>
+              <svg class="reviews-star-img" width="20" height="20">
+                <use href="./img/sprite.svg#pass-star"></use>
+              </svg>
+            </div>
             <p class="reviews-answer">
               “Замовляв шафу й ліжко — все приїхало раніше терміну. Якість
               перевершила очікування, збирання зайняло мінімум часу.”
@@ -428,6 +463,23 @@
             <p class="reviews-name">Андрій Шевченко</p>
           </li>
           <li class="reviews-item">
+            <div class="reviews-stars">
+              <svg class="reviews-star-img" width="20" height="20">
+                <use href="./img/sprite.svg#all-star"></use>
+              </svg>
+              <svg class="reviews-star-img" width="20" height="20">
+                <use href="./img/sprite.svg#all-star"></use>
+              </svg>
+              <svg class="reviews-star-img" width="20" height="20">
+                <use href="./img/sprite.svg#all-star"></use>
+              </svg>
+              <svg class="reviews-star-img" width="20" height="20">
+                <use href="./img/sprite.svg#all-star"></use>
+              </svg>
+              <svg class="reviews-star-img" width="20" height="20">
+                <use href="./img/sprite.svg#pass-star"></use>
+              </svg>
+            </div>
             <p class="reviews-answer">
               “Нарешті знайшли меблі, які ідеально вписались у наш інтер’єр.
               Сайт зручний, підтримка завжди на зв’язку.”
@@ -480,68 +532,59 @@
     <!-- #region footer -->
 
     <footer>
-      <div class="main-logo">
-        <a href="#">
-          <img src="./img/sprite.svg#logo" alt="logo" width="24" height="24" />
-          Меблярія
-        </a>
-      </div>
+      <div class="footer-container">
+       
+          <a class="footer-logo" href="#">
+            <svg width="221" height="49" aria-label="Меблерія" role="img">
+              <use href="./img/sprite.svg#icon-footer"></use>
+            </svg>
+          </a>
+          <p class="footer-content">© 2025 Меблерія. Всі права захищені.</p>
+        
 
-      <div>
-        <p>© 2025 Меблерія. Всі права захищені.</p>
-      </div>
-
-      <nav>
-        <ul>
-          <li>
-            <a href="#">Наші меблі</a>
-          </li>
-          <li>
-            <a href="#">Про нас</a>
-          </li>
-          <li>
-            <a href="#">Часті питання</a>
-          </li>
-          <li>
-            <a href="#">Відгуки</a>
-          </li>
-        </ul>
-
-        <div>
-          <ul>
-            <li>
-              <a href="#">
-                <img
-                  src="./img/sprite.svg#icon-Youtube"
-                  alt="icon-Youtube"
-                  width="24"
-                  height="24"
-                />
-              </a>
+        <nav class="footer-nav">
+          <ul class="footer-nav-list">
+            <li class="footer-nav-item">
+              <a href="#">Наші меблі</a>
             </li>
-            <li>
-              <a href="#">
-                <img
-                  src="./img/sprite.svg#icon-Instagram"
-                  alt="icon-Instagram"
-                  width="24"
-                  height="24"
-                />
-              </a>
+            <li class="footer-nav-item">
+              <a href="#">Про нас</a>
             </li>
-            <li>
-              <a href="#">
-                <img
-                  src="./img/sprite.svg#icon-Facebook"
-                  alt="icon-Facebook"
-                  width="24"
-                  height="24"
-                />
-              </a>
+            <li class="footer-nav-item">
+              <a href="#">Часті питання</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="#">Відгуки</a>
             </li>
           </ul>
-        </div>
-      </nav>
+
+          <div class="footer-socials">
+            <ul class="footer-socials-list">
+              <li class="footer-socials-item">
+                <a class="footer-socials-link" href="#">
+                  <svg class="footer-socials-icon" width="24" height="24" aria-label="YouTube" role="img">
+                    <use href="./img/sprite.svg#icon-Youtube"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-socials-item">
+                <a class="footer-socials-link" href="#">
+                  <svg class="footer-socials-icon" width="24" height="24" aria-label="Instagram" role="img">
+                    <use href="./img/sprite.svg#icon-Instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-socials-item">
+                <a class="footer-socials-link" href="#">
+                  <svg class="footer-socials-icon" width="24" height="24" aria-label="Facebook" role="img">
+                    <use href="./img/sprite.svg#icon-Facebook"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </footer>
 
     <!-- #endregion footer -->
