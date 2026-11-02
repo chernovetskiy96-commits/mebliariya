@@ -109,7 +109,7 @@ ul {
 /* #region hero */
 
 main {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(./img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(../img/hero.jpg);
     width: 100%;
     height: 508px;
     background-size: cover;
@@ -238,55 +238,55 @@ main {
 }
 
 .our-products-all {
-    background-image: url(./img/our-products-img/our-product.png);
+    background-image: url(../img/our-products-img/our-product.png);
 }
 
 .our-products-soft {
-    background-image: url(./img/our-products-img/soft-furniturs.png);
+    background-image: url(../img/our-products-img/soft-furniturs.png);
 }
 
 .our-products-wardrobe {
-    background-image: url(./img/our-products-img/wardrop.png);
+    background-image: url(../img/our-products-img/wardrop.png);
 }
 
 .our-products-bed {
-    background-image: url(./img/our-products-img/bed.png);
+    background-image: url(../img/our-products-img/bed.png);
 }
 
 .our-products-table {
-    background-image: url(./img/our-products-img/diner-table.png);
+    background-image: url(../img/our-products-img/diner-table.png);
 }
 
 .our-products-chairs {
-    background-image: url(./img/our-products-img/chairs.png);
+    background-image: url(../img/our-products-img/chairs.png);
 }
 
 .our-products-kitchen {
-    background-image: url(./img/our-products-img/kitchen.png);
+    background-image: url(../img/our-products-img/kitchen.png);
 }
 
 .our-products-kids {
-    background-image: url(./img/our-products-img/childrens.png);
+    background-image: url(../img/our-products-img/childrens.png);
 }
 
 .our-products-office {
-    background-image: url(./img/our-products-img/office.png);
+    background-image: url(../img/our-products-img/office.png);
 }
 
 .our-products-hallway {
-    background-image: url(./img/our-products-img/mirror.png);
+    background-image: url(../img/our-products-img/mirror.png);
 }
 
 .our-products-bethroom {
-    background-image: url(./img/our-products-img/bathroom.png);
+    background-image: url(../img/our-products-img/bathroom.png);
 }
 
 .our-products-garden {
-    background-image: url(./img/our-products-img/outdoor.png);
+    background-image: url(../img/our-products-img/outdoor.png);
 }
 
 .our-products-decor {
-    background-image: url(./img/our-products-img/decor.png);
+    background-image: url(../img/our-products-img/decor.png);
 }
 
 /* #endregion our products */
