@@ -36,13 +36,13 @@
         <nav class="main-nav">
           <ul class="main-nav-list">
             <li class="main-nav-item">
-              <a href="#">Наші меблі</a>
+              <a href="#our-products">Наші меблі</a>
             </li>
             <li class="main-nav-item">
-              <a href="#">Про нас</a>
+              <a href="#about">Про нас</a>
             </li>
-            <li class="main-nav-item"><a href="#">Часті питання</a></li>
-            <li class="main-nav-item"><a href="#">Відгуки</a></li>
+            <li class="main-nav-item"><a href="#faq">Часті питання</a></li>
+            <li class="main-nav-item"><a href="#reviews">Відгуки</a></li>
           </ul>
           <button class="main-btn red-btn" type="button">
             <span class="btn-content">До покупок</span>
@@ -73,7 +73,7 @@
 
     <!-- #region our products -->
 
-    <section class="our-products-section">
+    <section class="our-products-section" id="our-products">
       <div class="our-products">
         <h2 class="our-products-title">Наші меблі</h2>
         <p class="our-products-content">
@@ -323,7 +323,7 @@
 
     <!-- #region about -->
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="about-container">
         <h2 class="about-title">Про Меблерію</h2>
         <p class="about-content">
@@ -346,7 +346,7 @@
 
     <!-- #region FAQ -->
 
-    <section class="faq-section">
+    <section class="faq-section" id="faq">
       <h2 class="faq-title">Часті питання</h2>
       <ul class="faq-list">
         <li class="faq-item">
@@ -409,7 +409,7 @@
 
     <!-- #region reviews-->
 
-    <section class="reviews-section">
+    <section class="reviews-section" id="reviews">
       <h2 class="reviews-title">Відгуки клієнтів</h2>
       <p class="reviews-content">Дізнайтеся, що кажуть наші задоволені клієнти про нашу меблі.</p>
         <ul class="reviews-list">
@@ -545,16 +545,16 @@
         <nav class="footer-nav">
           <ul class="footer-nav-list">
             <li class="footer-nav-item">
-              <a href="#">Наші меблі</a>
+              <a href="#our-products">Наші меблі</a>
             </li>
             <li class="footer-nav-item">
-              <a href="#">Про нас</a>
+              <a href="#about">Про нас</a>
             </li>
             <li class="footer-nav-item">
-              <a href="#">Часті питання</a>
+              <a href="#faq">Часті питання</a>
             </li>
             <li class="footer-nav-item">
-              <a href="#">Відгуки</a>
+              <a href="#reviews">Відгуки</a>
             </li>
           </ul>
 
@@ -588,5 +588,65 @@
     </footer>
 
     <!-- #endregion footer -->
+
+    <!-- #region product modal-->
+
+    <!-- hide-popup -->
+
+    <div class="backdrop-product-modal ">
+      <div class="popup-product-modal">
+        <ul class="product-modal-list-img">
+          <li class="product-modal-img-item">
+            <img src="./img/product-modal/sofa-oslo-white.jpg" alt="sofa-oslo-white" width="580" height="308">
+          </li>
+          <li class="product-modal-img-item">
+            <img src="./img/product-modal/sofa-oslo-beige.jpg" alt="sofa-oslo-beige" width="282" height="197">
+          </li>
+          <li class="product-modal-img-item">
+            <img src="./img/product-modal/sofa-oslo-corner.jpg" alt="sofa-oslo-corner" width="282" height="197">
+          </li>
+        </ul>
+        <div class="product-modal-info">
+          <h2 class="product-modal-title">Софа Oslo</h2>
+          <p class="product-modal-description">Дивани</p>
+          <p class="product-modal-cost">9 999 грн</p>
+          <div class="reviews-stars product-modal-stars">
+              <svg class="reviews-star-img" width="20" height="20">
+                <use href="./img/sprite.svg#all-star"></use>
+              </svg>
+              <svg class="reviews-star-img" width="20" height="20">
+                <use href="./img/sprite.svg#all-star"></use>
+              </svg>
+              <svg class="reviews-star-img" width="20" height="20">
+                <use href="./img/sprite.svg#all-star"></use>
+              </svg>
+              <svg class="reviews-star-img" width="20" height="20">
+                <use href="./img/sprite.svg#all-star"></use>
+              </svg>
+              <svg class="reviews-star-img" width="20" height="20">
+                <use href="./img/sprite.svg#pass-star"></use>
+              </svg>
+            </ul>
+        </div>
+        <p class="product-modal-color">Колір</p>
+              <ul class="our-products-cards-list-btn">
+              <li class="our-products-cards-btn">
+                <button class="gray-btn product-modal-dot" type="button"></button>
+              </li>
+              <li class="our-products-cards-btn ">
+                <button class="beige-btn" type="button"></button>
+              </li>
+              <li class="our-products-cards-btn">
+                <button class="black-btn" type="button"></button>
+              </li>
+              </ul>
+              <p class="product-modal-content">Класичний диван з м'якими подушками та високою спинкою, ідеальний для сімейного відпочинку. Оббивка з якісної зносостійкої тканини.</p>
+              <p class="product-modal-size">Розміри: 280x180x85</p>
+
+              <button class="product-modal-btn red-btn" type="button">Перейти до замовлення</button>
+      
+    </div>
+
+    <!-- #endregion product modal -->
   </body>
 </html>
