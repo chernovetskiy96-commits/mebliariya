@@ -591,10 +591,15 @@
 
     <!-- #region product modal-->
 
-    <!-- hide-popup -->
+    <!-- #hide-popup -->
 
-    <div class="backdrop-product-modal ">
-      <div class="popup-product-modal">
+    <div class="backdrop-modal ">
+      <div class="popup-product-modal hide-popup">
+        <button class="close-btn" type="button">
+            <svg width="12" height="12">
+                <use href="/img/sprite.svg#icon-close" ></use>
+            </svg>
+        </button>
         <ul class="product-modal-list-img">
           <li class="product-modal-img-item">
             <img src="./img/product-modal/sofa-oslo-white.jpg" alt="sofa-oslo-white" width="580" height="308">
@@ -648,5 +653,54 @@
     </div>
 
     <!-- #endregion product modal -->
+
+
+    <!-- #region order modal -->
+    
+    <div class="backdrop-modal">
+      <div class="popup-order-modal">
+        <button class="close-btn" type="button">
+            <svg width="12" height="12">
+                <use href="/img/sprite.svg#icon-close" ></use>
+            </svg>
+        </button>
+        <p class="order-modal-title">Замовити</p>
+
+        <form>
+          <div class="order-form-field-wrapper">
+            <label class="order-lable-field" for="username">Ім'я*</label>
+            <input 
+            class="text-field" 
+            type="text"
+            id="username" 
+            name="username"
+            placeholder="Дмитро" />
+          </div>
+
+          <div class="order-form-field-wrapper">
+            <label class="order-lable-field" for="usertel">Телефон*</label>
+            <input 
+            class="text-field"
+            type="tel" 
+            id="usertel"
+            name="usertel"
+            placeholder="38 099 123 22 11" />
+          </div>
+
+          <div class="order-form-field-wrapper">
+            <label class="order-lable-field" for="comment">Коментар</label>
+            <textarea 
+            class="comment-textarea" 
+            name="comment" 
+            id="comment" 
+            placeholder="Введіть ваш коментар"></textarea>
+          </div>
+        </form>
+
+        <button class="order-btn red-btn">Надіслати заявку</button>
+      </div>
+    </div>
+
+    <!-- #endregion order modal -->
   </body>
 </html>
